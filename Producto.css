@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+header{
+    background-color: #000000;
+    border: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+li{
+    margin: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Logo{
+    display: flex;
+  
+    list-style: none;
+    height: 80px;
+    width: 100px;
+}
+
+
+
+nav{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+
+.cajaanimal{
+height: 350px;
+width: 300px;
+background-color: #7a7a7a3f;
+border-image: rgb(255, 179, 179);
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-color: black;
+margin-right: 20px;
+transition-property: backgroun-color,border;
+transition-duration: 1s;
+}
+
+.cajaanimal:hover{
+    background-color: rgb(253, 253, 253);
+    
+}
+   
+.cajacontenedora{
+    display: flex;
+    justify-content: center;
+}
+    
+
+
+span{
+    display: block;
+    padding: 10px;
+    background-color: #c8fdde;
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    width: 260px;
+    
+}
+
+.Producto{
+    height: 300px;
+    width: 400;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    padding: 90px;    
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h3{
+    font-family: "Roboto Mono", monospace;
+  font-size: 40px;
+  font-weight: weight;
+  font-style: normal;
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+  }
+
+  h4{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+  body{
+    background-color: #ffffff42;
+  }
+
+
+
+@media(max-width:750px){
+    .cajacontenedora{
+        
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:750px){
+    .header{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        
+    }
+}
+
+
+.dos{
+    margin: 5px;
+}
+
+
+
+
+
+.img2{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.celeste:hover{
+    content: url(celeste.png);
+    height: 560px;
+    width: 410px;
+}
+
+.color{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.cajapadre2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.amarillo:hover{
+    content: url(imagenes/amarillo\ hombre.png);
+}
+.lila:hover{
+    content: url(imagenes/lila.png);
+}
+
+
+
+
+.cajapadre3{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.hoja:hover{
+    content: url(imagenes/hoja.png);
+}
+.azul:hover{
+    content: url(imagenes/azul\ oscuro.png);
+}
+.celeste:hover{
+    content: url(imagenes/celestehombre.png);
+    width: 333px;
+}
+.oscuro:hover{
+    content: url(imagenes/oscuro.png);
+}
+
+
+.grises{
+    display: flex;
+    justify-content: space-around;
+}
+.gris:hover{
+    content: url(imagenes/gris.png);
+    height: 550px;
+}
+
+
+
+
+.cajamadre{
+    justify-content: center;
+    display: flex;
+    
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.rosita:hover{
+    content: url(imagenes/rositaa.png);
+    height: 550px;
+}
+.rojo:hover{
+    content: url(imagenes/rojoo.png);
+    height: 555px;
+}
+.rojito:hover{
+    content: url(imagenes/ROJITO1.png);
+    height: 555px;
+}
+.dorado:hover{
+    content: url(imagenes/doradoo.png);
+    height: 555px;
+}
+
+
+
+
+
+.novedades{
+    display: flex;
+    justify-content: center;
+}
+.novedadess{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.tropical:hover{
+    content: url(imagenes/verdeazul.png);
+}
+.verde:hover{
+    content: url(imagenes/hojaverde.png);
+}
+.tatu:hover{
+    content: url(imagenes/tatuaje.png);
+}
+
+
+
+
+
+
+
+.info{
+    display: flex;
+   background-color: rgb(255, 255, 255);
+   
+ }
+
+
+
+
+p{
+justify-content: center;
+font-size: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info2{
+width: 5000px;
+}
+
+.info3{
+width: 300px;
+}
+
+
+

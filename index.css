@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+a{ 
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+   list-style: none;
+    color: #000000;
+}
+
+i{
+    font-size: 25px;
+    
+}
+
+.mas{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+header{
+    background-color: #000000;
+    border: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+
+
+
+
+.Logo{
+  display: flex;
+  
+  list-style: none;
+  height: 80px;
+  width: 100px;
+  
+}
+ 
+.foto{
+    width: 400px;
+    height: 450px;
+}
+.fotoo{
+    height: 400px;
+    width: 550px;
+}
+
+.largo{
+    width: 1000px;;
+}
+
+h2{
+    font-size: 100px;
+    justify-content: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+    padding: 50px;
+    
+}
+
+h3{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+@media (width<800px) {
+    .PERSONAS{
+        display: grid;
+        grid-template-columns: repeat(1 1Fr);
+    }
+
+    .cajapadre{
+        display: grid;
+        grid-template-columns: repeat(1 1Fr);
+        flex-wrap: wrap;
+    }
+
+   
+}
+.cajapadre{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+.PERSONAS{
+    display: flex;
+    justify-content: center;
+}
+.hombres{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.hombre:hover{
+    content: url(imagenes/hombre.png); 
+}
+.mujer:hover{
+    content: url(imagenes/negro.png);
+}
+.verde:hover{
+    content: url(imagenes/verde.png);
+}
+
+.PERSONASMUJERES{
+    display: flex;
+    justify-content: center;
+    
+}
+.mujeres{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.rojo:hover{
+    content: url(imagenes/rojo.png);
+}
+.rosita:hover{
+    content: url(imagenes/rositaclaro.png);
+}
+.maron:hover{
+    content: url(imagenes/maron.png);
+}
+
+
+.segundo{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .fondos2{
+    height: 450px ;
+    width: 500px;
+  }
+
+  .icono{
+    height: 10vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: left;
+     }
+
+     .PAGINA{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #000000;
+        font-size: 40px;
+        border: #000000;
+        margin: 25px;
+        
+     }
+
+    
+
+.info{
+        display: flex;
+       background-color: rgb(255, 255, 255);
+       
+     }
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+h4{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    justify-content: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info2{
+    width: 5000px;
+}
+
+.info3{
+    width: 300px;
+}
+
+.color{
+    color: #ffffff;
+}
